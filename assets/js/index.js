@@ -7,7 +7,10 @@ function loadDiseases(){
     .then(response => response.json())
     .then(pandemics =>{
         pandemics.diseases.forEach(disease =>{
-            console.log(disease.name)
+            renderDisease(disease)
         })
     })
+}
+function renderDisease(item){
+    
 }
