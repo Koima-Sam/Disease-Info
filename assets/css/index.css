@@ -1,0 +1,29 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+#search{
+    position: relative;
+    outline: 1px solid orange;
+    top: 13px;
+    left: 12px;
+    width: 70%;
+    max-width: none;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 175%;
+    
+}
+.submit_btn{
+    margin-left: 10px;
+    position: relative;
+    background-color: orange;
+    top: 13px;
+    border: none;
+    color: white;
+    font-size: 140%;
+    padding: 2% 4%;
+    cursor: pointer;
+}
