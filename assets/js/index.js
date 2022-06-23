@@ -20,6 +20,12 @@ function renderDisease(item){
     facts.textContent =item.facts
     let date = document.createElement('td')
     date.textContent = item.data_updated_at
-    tr.append(name, facts, date)
+    let treatment = document.createElement('td')
+    treatment.textContent = item.treatment
+    let prevention = document.createElement('td')
+    prevention.textContent = item.prevention
+    let symptom = document.createElement('td')
+    symptom.textContent = item.symptoms
+    tr.append(name, facts, date, treatment, symptom, prevention)
     div.append(tr)
 }
