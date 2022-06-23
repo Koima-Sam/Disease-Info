@@ -21,11 +21,11 @@ function renderDisease(item){
     let date = document.createElement('td')
     date.textContent = item.data_updated_at
     let treatment = document.createElement('td')
-    treatment.textContent = item.treatment
+     item.treatment ===null ?treatment.textContent = "Not Available": treatment.textContent = item.treatment
     let prevention = document.createElement('td')
-    prevention.textContent = item.prevention
+    item.prevention !==null? prevention.textContent = item.prevention: prevention.textContent = 'Not Available ' 
     let symptom = document.createElement('td')
-    symptom.textContent = item.symptoms
+    item.symptoms !==null? symptom.textContent = item.symptoms: symptom.textContent = "Not Available"
     tr.append(name, facts, date, treatment, symptom, prevention)
     div.append(tr)
 }
