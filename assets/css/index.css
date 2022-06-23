@@ -5,10 +5,9 @@
 }
 
 #search{
-    position: relative;
     outline: 1px solid orange;
-    top: 13px;
-    left: 12px;
+    margin-top: 13px;
+    margin-left: 12px;
     width: 70%;
     max-width: none;
     height: 60px;
@@ -18,12 +17,28 @@
 }
 .submit_btn{
     margin-left: 10px;
-    position: relative;
     background-color: orange;
-    top: 13px;
+    margin-top: 11px;
     border: none;
     color: white;
     font-size: 140%;
-    padding: 2% 4%;
+    padding: 1% 4%;
     cursor: pointer;
 }
+#disease-list{
+    margin-top: 3%;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
