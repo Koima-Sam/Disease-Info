@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box; 
+   font-family: 'Poppins';
 }
 
 #search{
@@ -31,6 +32,11 @@
 table, td, th {  
     border: 1px solid #ddd;
     text-align: left;
+  }
+
+  th{
+    color: coral;
+    background: rgb(29, 28, 29);
   }
   
   table {
