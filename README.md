@@ -1,6 +1,9 @@
 ## Disease Information System
 This is a website that contains all information about diseases from diseases API
 
+## Author
+Sammy Kipkosgei
+
 ### Requirements
 <ul>
 <li>Smartphone or Laptop</li>
@@ -8,7 +11,10 @@ This is a website that contains all information about diseases from diseases API
 <li>Search Engine i.e Chrome</li>
 </ul>
 
-### Technologies used
+## Set Up Instructions
+Open your browser,
+Click on this [Link](https://koima-sam.github.io/Disease-Info/) to acces the website
+## Technologies used
 <ul>
 <li>JavaScript</li>
 <li>HMTL</li>
