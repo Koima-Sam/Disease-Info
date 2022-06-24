@@ -48,3 +48,7 @@ table, td, th {
     padding: 15px;
   }
 
+footer{
+    text-align: center;
+    background-color: rgb(107, 115, 122);
+}
