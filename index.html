@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <title>Disease Information</title>
 
     <link rel="stylesheet" href="./assets/css/index.css">
     <script src="./assets/js/index.js" defer></script>
 </head>
 <body>
-    <div class="search">
-        <input type="text" name="searchText" id="search" placeholder="Enter the disease name.....">
-        <input type="submit" value="search" class="submit_btn">
+    <div class="search" >
+        <form id="searchForm">
+            <input type="text" name="searchText" id="search" placeholder="Enter the disease name.....">
+            <input type= "submit" value="search" class="submit_btn">
+        </form>
     </div>
 
     <div id = disease-list>
