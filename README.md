@@ -23,3 +23,8 @@ Click on this [Link](https://koima-sam.github.io/Disease-Info/) to acces the web
 
 ## LICENSE
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+ ## Copyrights
+ This Application is license under the MIT license.
+Copyright (c) 2022  DiseaseInfo.Inc
